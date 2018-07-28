@@ -1,0 +1,78 @@
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ node
+> ["item 1","item 2", "item 3"]
+[ 'item 1', 'item 2', 'item 3' ]
+> var todos = ["item 1","item 2", "item 3"]
+undefined
+> todos
+[ 'item 1', 'item 2', 'item 3' ]
+> console.log["hello there"]
+undefined
+> console.log('hello there')
+hello there
+undefined
+> console.log('hello there', "gordon")
+hello there gordon
+undefined
+> console.log("My Todos:", todos)
+My Todos: [ 'item 1', 'item 2', 'item 3' ]
+undefined
+> todos.push["item 4"]
+undefined
+> todos
+[ 'item 1', 'item 2', 'item 3' ]
+> todos.push['item 4']
+undefined
+> todos
+[ 'item 1', 'item 2', 'item 3' ]
+> todos[0]
+'item 1'
+> todos[1]
+'item 2'
+> todos[2]
+'item 3'
+> todos[4]
+undefined
+> todos[0] = 'item 1 updated'
+'item 1 updated'
+> todos[0] = 'new value'
+'new value'
+> todos
+[ 'new value', 'item 2', 'item 3' ]
+> todos.splice(0, 1)
+[ 'new value' ]
+> todos.splice(0)
+[ 'item 2', 'item 3' ]
+> todos
+[]
+> git add watchandcode
+git add watchandcode
+    ^^^
+
+SyntaxError: Unexpected identifier
+
+> :wq
+... cd watchandcode
+... 
+> 
+(To exit, press ^C again or type .exit)
+> 
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git add watchandcode
+fatal: pathspec 'watchandcode' did not match any files
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ 
+
+Lesson 2
+
+makeTurkeySandwich
+Get one slice of bread.
+Add turkey.
+Put a slice of bread on top.
+
+function makeTurkeySandwich() {
+Get one slice of bread;
+Add turkey;
+Put a slice of bread on top;
+}
+
+makeTurkeySandwich()
+
+
