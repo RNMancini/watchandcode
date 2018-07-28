@@ -75,4 +75,87 @@ Put a slice of bread on top;
 
 makeTurkeySandwich()
 
+makeASandwichWith____
+Get one slice of bread.
+Add _______.
+Put a slice of bread on top.
 
+function makeSandwichWith(filling) {
+Get one slice of bread;
+Addfilling;
+Put a slice of bread on top;
+}
+makeSandwichWith_ham_
+makeSandwichWith(ham)
+
+console.log('my todos', todos)
+
+ function sayHiTo(person) { console.log('hi', person); }
+var todos = ['item 1', 'item 2', 'item 3']
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git push origin master -u
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git add Preserve Log 
+fatal: pathspec 'Preserve' did not match any files
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git add preserve log
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git commit -m "lesson 2"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   Preserve Log
+
+no changes added to commit
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ node
+> var todos = ['item 1', 'item 2', 'item 3']
+undefined
+> function functionName() { console.log('My todos', todos;}
+... displayTodos()
+... My todos 
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git push origin master -u
+Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+Branch master set up to track remote branch master from origin.
+Everything up-to-date
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git add Preserve Log 
+fatal: pathspec 'Preserve' did not match any files
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git add preserve log
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ git commit -m "lesson 2"
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes not staged for commit:
+        modified:   Preserve Log
+
+no changes added to commit
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ node
+> var todos = ['item 1', 'item 2', 'item 3']
+undefined
+> function functionName() { console.log('My todos', todos;}
+... displayTodos()
+... My todos 
+rebeccamancini:~/workspace/javascript/watchandcode (master) $ node
+> var todos = ['item 1', 'item 2', 'item 3']
+undefined
+> function functionName() { console.log('My todos', todos;}
+... displayTodos()
+... My todos 
+... addToDo()
+... displayToDos()
+... My todos: ["item 1", "item 2", "item 3", "new todo", "new todo"]
+... function addToDo(todo) {
+..... todos.push(todo);
+..... displayToDos(); }
+... addToDo('some stuff')
+... displayToDos()
+... 
+... function changeToDo() {
+... todos[0] = 'some new value'; }
+... function changeToDo(position, newValue) { todos[position] = newValue; }
+... displayToDos()
+... changeToDo[0, 'changed']
+... displayToDos()
+... My todos: ["changed", "item 2", "item 3", "new todo", "new todo", "new todo", "hello there"}
+... function changeToDo(position, newValue) { todos[position] = newValue; displayToDos(); }
+
+ function deleteToDo(position) { todos.splice(position, 1); displayToDos(); }
