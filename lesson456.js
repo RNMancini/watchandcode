@@ -1,12 +1,14 @@
-//Lesson 3
-
-var toDoList = {todos: ['item 1', 'item 2','item 3'],
+//Lesson 4
+var toDoList = {todos: [],
 displayToDos: function() { console.log('My Todos', this.todos);
 },
 
 
-    Addtodo: function(todo) {
-        this.todos.push(todo);
+    Addtodo: function(todoText) {
+        this.todos.push({
+            todoText: todoText,
+            completed: false
+            });
         this.displayTodos();
         },
         changeTodo: function(position, newValue) {
@@ -16,8 +18,11 @@ displayToDos: function() { console.log('My Todos', this.todos);
         deleteTodo: function(position) {
             this.todos.splice(position, 1);
             this.displayTodos();
+            },
+            toggleCompleted: function(position) {
+            var todo = this.todos(position)
+            todo.completed = !todo.completed;
+            this.displayTodos();
             }
 };
-
-
-
+'item 1'
