@@ -21,3 +21,13 @@ displayToDos: function() { console.log('My Todos', this.todos);
 
 
 
+//Lesson 7
+var displayTodosButton = document.getElementById('displayTodosButton');
+var toggleAllButton = document.getElementById('toggleAllButton');
+
+displayTodosButton.addEventListener('click', function() {
+    todoList.displayTodos();
+});
+
+toggleAllButton.addEventListener('click', function() {
+    todoList.toggleAll(); });
