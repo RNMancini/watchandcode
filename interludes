@@ -1,0 +1,17 @@
+runWithDebugger
+logTenNumbers
+
+function runWithDebugger(ourFunction) {
+debugger;
+ourFunction(); }
+
+ourFunction
+runWithDebugger(function logTenNumbers() {
+for (var i = 0; i < 10; i++} {
+console.log(i);
+}
+});
+
+setTimeout (function() {
+console.log(); }, 5000)
+
