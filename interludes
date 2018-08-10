@@ -1,3 +1,4 @@
+//runWithDebugger
 runWithDebugger
 logTenNumbers
 
@@ -15,3 +16,30 @@ console.log(i);
 setTimeout (function() {
 console.log(); }, 5000)
 
+//forEach
+
+var students = ['jonathan', 'jenny', 'elliot'];
+function logName(name) {
+ console.log(name);
+ }
+ 
+ for (var i = 0; i < students.length; i++) {
+ logName(students[i]);
+ }
+ 
+ students.forEach(logName)
+ 
+ students.forEach(function logName(name) {
+ console.log(name);
+ })
+ 
+ function forEach(myArray, myFunction) {
+ for (var i = 0; i < myArray.length; i++) {
+ myFunction(myArray[i]);
+ }}
+ forEach(students, function(student) { console.log(student); })
+ 
+ tutorialsElement.addEventListener('click', function() {
+ console.log('The tutorials elemet was clicked!');
+ });
+ 
